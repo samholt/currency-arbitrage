@@ -30,7 +30,6 @@ From Investopedia
 
 > From these transactions, you would receive an arbitrage profit of $1,373 (assuming no transaction costs or taxes).
 
-### Another example 
 From Wikipedia:
 
 ![triangular-arbitrage](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Triangular-arbitrage.svg/2000px-Triangular-arbitrage.svg.png)
