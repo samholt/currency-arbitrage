@@ -17,7 +17,7 @@ From Investopedia
 ### Currency Arbitrage
 > For example, two different banks (Bank A and Bank B) offer quotes for the US/EUR currency pair. Bank A sets the rate at 3/2 dollars per euro, and Bank B sets its rate at 4/3 dollars per euro. In currency arbitrage, the trader would take one euro, convert that into dollars with Bank A and then back into euros with Bank B. The end result is that the trader who started with one euro now has 9/8 euro. The trader has made a 1/8 euro profit if trading fees are not taken into account.
 
-## Triangular Arbitrage
+### Triangular Arbitrage
 > Suppose you have $1 million and you are provided with the following exchange rates: EUR/USD = 0.8631, EUR/GBP = 1.4600 and USD/GBP = 1.6939. 
 
 > With these exchange rates there is an arbitrage opportunity: 
@@ -29,6 +29,11 @@ From Investopedia
 > $1,001,373 - $1,000,000 = $1,373
 
 > From these transactions, you would receive an arbitrage profit of $1,373 (assuming no transaction costs or taxes).
+
+### Another example 
+From Wikipedia:
+
+![triangular-arbitrage](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/Triangular-arbitrage.svg/2000px-Triangular-arbitrage.svg.png)
 
 ## Version
 1.0
