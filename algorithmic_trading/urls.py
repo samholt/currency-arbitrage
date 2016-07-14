@@ -2,11 +2,9 @@ from django.conf.urls import include, url
 from django.contrib import admin
 admin.autodiscover()
 
-import option_price_calculator.views
+import currency_arbitrage.views
 
 urlpatterns = [
-    url(r'^$', option_price_calculator.views.index, name='index'),
-	url(r'^about', option_price_calculator.views.about, name='index'),
-	url(r'^black_scholes', option_price_calculator.views.black_scholes, name='index'),
-    url(r'^admin/', include(admin.site.urls)),
+    url(r'^$', currency_arbitrage.views.index, name='index'),
+	url(r'^about', currency_arbitrage.views.about, name='index'),
 ]
