@@ -43,13 +43,73 @@
 
             <h3>Technologies used:</h3>
             <p>Python, Django framework and Twitter Bootstrap UI library.</p>
-            
+
             <h3>Author:</h3>
             <p>Saurabh Gokhale (<a href="https://www.github.com/sgokhales">@sgokhales</a>)</p>
           </div><!-- @end #about -->
 
           <div class="tab-pane" id="triangular_arbitrage">
-            <h3>Triangular Arbitrage Mechanism</h3>
+            <h3>Triangular Arbitrage Mechanism</h3><br>
+              <form role="form" class="form-horizontal">
+                  <div class="form-group">
+                  <div class="col-sm-3">
+                      <label for="currency_a">Currency A: </label>
+                        <select class="form-control" id="currency_a">
+                            <option>USD (United States Dollar)</option>
+                            <option>EUR (Euro Member Countries)</option>
+                            <option>AUD (Australian Dollar)</option>
+                            <option>CHF (Switzerland Franc)</option>
+                            <option>ZAR (South African Rand)</option>
+                            <option>JPY (Japan Yen)</option>
+                        </select>
+                  </div>
+                  <div class="col-sm-3">
+                      <label for="currency_b">Currency B: </label>
+                    <select class="form-control" id="currency_b">
+                        <option>USD (United States Dollar)</option>
+                        <option>EUR (Euro Member Countries)</option>
+                        <option>AUD (Australian Dollar)</option>
+                        <option>CHF (Switzerland Franc)</option>
+                        <option>ZAR (South African Rand)</option>
+                        <option>JPY (Japan Yen)</option>
+                    </select>
+                  </div>
+                    <div class="col-sm-3">
+                        <label for="currency_c">Currency C: </label>
+                    <select class="form-control" id="currency_c">
+                        <option>USD (United States Dollar)</option>
+                        <option>EUR (Euro Member Countries)</option>
+                        <option>AUD (Australian Dollar)</option>
+                        <option>CHF (Switzerland Franc)</option>
+                        <option>ZAR (South African Rand)</option>
+                        <option>JPY (Japan Yen)</option>
+                    </select>
+                    </div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <label class="col-sm-2">Currency A / Currency B</label>
+                  <div class="col-sm-2"><input type="text" class="form-control" placeholder="Bid Price Quote"></div>
+                  <div class="col-sm-3"><input type="text" class="form-control" placeholder="Ask Price Quote"></div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2">Currency A / Currency C</label>
+                  <div class="col-sm-2"><input type="text" class="form-control" placeholder="Bid Price Quote"></div>
+                  <div class="col-sm-3"><input type="text" class="form-control" placeholder="Ask Price Quote"></div>
+                </div>
+                <div class="form-group">
+                  <label class="col-sm-2">Currency B / Currency C</label>
+                  <div class="col-sm-2"><input type="text" class="form-control" placeholder="Bid Price Quote"></div>
+                  <div class="col-sm-3"><input type="text" class="form-control" placeholder="Ask Price Quote"></div>
+                </div>
+                <br>
+                <div class="form-group">
+                  <div class="col-sm-6">
+                    <button type="submit" class="btn btn-success">Submit</button>
+                    <button type="reset" class="btn btn-danger">Reset</button>
+                  </div>
+                </div>
+              </form>
           </div><!-- @end #triangular_arbitrage -->
 
         </div><!-- @end .tab-content -->
@@ -76,7 +136,6 @@
 			}
 			return cookieValue;
 		}
-
 		$.ajaxSetup({
 			beforeSend: function(xhr, settings) {
 				if (!(/^http:.*/.test(settings.url) || /^https:.*/.test(settings.url))) {
