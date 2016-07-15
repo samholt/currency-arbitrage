@@ -1,4 +1,4 @@
-# Currency Arbitrage - 6b48e918d648d16de06d9a50f8da1be740b771c1
+# Currency Arbitrage 
 Exploit currency arbitrage opportunity (if any) by using mechanism of `triangular arbitrage`
 
 ## Concept
